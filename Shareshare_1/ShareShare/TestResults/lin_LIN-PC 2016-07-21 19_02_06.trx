@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="490ebc11-6110-4379-a277-6a199effb49b" name="lin@LIN-PC 2016-07-21 19:02:06" runUser="lin-PC\lin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="6c3dfa59-721c-4907-9b5a-0fb0c42a7901">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="lin_LIN-PC 2016-07-21 19_02_06">
+      <DeploymentItem filename="C:\Code\amazon-git\Shareshare_1\ShareShare\prism\Microsoft.Practices.Unity.dll" />
+      <DeploymentItem filename="C:\Code\amazon-git\Shareshare_1\ShareShare\ShareShareTestProject\dll\net40\Debug\WebSocket4Net.dll" />
+      <DeploymentItem filename="C:\Code\amazon-git\Shareshare_1\ShareShare\packages\Newtonsoft.Json.9.0.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Code\amazon-git\Shareshare_1\ShareShare\prism\Microsoft.Practices.Prism.dll" />
+      <DeploymentItem filename="C:\Code\amazon-git\Shareshare_1\ShareShare\bin\Debug\shareshare.exe" />
+      <DeploymentItem filename="C:\Code\amazon-git\Shareshare_1\ShareShare\prism\AWSSDK.Core.dll" />
+      <DeploymentItem filename="C:\Code\amazon-git\Shareshare_1\ShareShare\prism\CSharpAPI.dll" />
+      <DeploymentItem filename="C:\Code\amazon-git\Shareshare_1\ShareShare\prism\AWSSDK.DynamoDBv2.dll" />
+      <DeploymentItem filename="C:\Code\amazon-git\Shareshare_1\ShareShare\packages\Debug\Fleck.dll" />
+      <DeploymentItem filename="C:\Code\amazon-git\Shareshare_1\ShareShare\prism\Microsoft.Practices.Prism.UnityExtensions.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-07-21T19:02:06.0668606-04:00" queuing="2016-07-21T19:02:07.8198632-04:00" start="2016-07-21T19:02:07.9398634-04:00" finish="2016-07-21T19:02:24.2220861-04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="1" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="LIN-PC" outcome="Error" timestamp="2016-07-21T19:02:24.2200859-04:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RegisterUserTest" storage="c:\code\amazon-git\shareshare_1\shareshare\sharesharetestproject\bin\debug\sharesharetestproject.dll" id="927c0a78-4bdb-490d-141e-2daf4b3173c2">
+      <Execution id="c4b0e50a-26c1-4a49-a6bf-a530e664b6e4" />
+      <TestMethod codeBase="C:/Code/amazon-git/Shareshare_1/ShareShare/ShareShareTestProject/bin/Debug/ShareShareTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShareShareTestProject.BusinessUnitTest, ShareShareTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterUserTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="927c0a78-4bdb-490d-141e-2daf4b3173c2" executionId="c4b0e50a-26c1-4a49-a6bf-a530e664b6e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c4b0e50a-26c1-4a49-a6bf-a530e664b6e4" testId="927c0a78-4bdb-490d-141e-2daf4b3173c2" testName="RegisterUserTest" computerName="LIN-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4b0e50a-26c1-4a49-a6bf-a530e664b6e4">
+    </UnitTestResult>
+  </Results>
+</TestRun>

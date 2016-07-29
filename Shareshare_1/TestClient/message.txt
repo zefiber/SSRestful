@@ -1,0 +1,2 @@
+{"equitylist":[1,2,3,7887],"action":"subscribe"}
+{"equitylist":[2,7887],"action":"unsubscribe"}
